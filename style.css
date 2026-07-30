@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(
+        rgba(0, 119, 255, 0.75),
+        rgba(0, 200, 255, 0.75)
+    ),
+    url(zero.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+
+/* Product Section */
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+/* Product Cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background: rgba(255,255,255,0.95);
+    color: #333;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+button {
+    background: #0077ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background: #005bbb;
+}
